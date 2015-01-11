@@ -1,0 +1,57 @@
+.rootTable{
+    width: 100%; 
+    min-height: 430px; 
+    height:100%;
+    min-height: 600px;
+    background-color:#ccccff
+}
+.tdPropertyRoot{
+    padding:2px;
+    border: #4392AE 2px inset;
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    width:250px;
+}
+.tdPropertyRootCollapsed{
+    padding:2px;
+    border: #4392AE 2px inset;
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    width:20px;
+}
+.tdDesignerRoot{
+    vertical-align: top;
+    text-align:left;
+    min-height:60%;
+}
+.tdToolBoxRoot{
+    padding:2px;
+    border: #4392AE 2px inset;
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    width:150px;
+}
+.tdToolBoxRootCollapsed{
+    padding:2px;
+    border: #4392AE 2px inset;
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    width:20px;
+}
+.tdHtmlSourceRoot{
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    height:200px;
+}
+.tdHtmlSourceRootCollapsed{
+    background-color: #83948A;
+    vertical-align: top;
+    text-align:left;
+    height:20px;
+}
+

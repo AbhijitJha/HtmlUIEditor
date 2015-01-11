@@ -1,0 +1,56 @@
+body{
+    background-color:grey;
+}
+#designerDiv{
+    border: #4392AE 1px inset;
+    width: 100%;
+    min-height:250px; 
+    height: 100%;
+    background-color: #ddd;
+}
+#tblProperty{
+    width: 100%; 
+    background-color: rgb(180, 189, 186);
+}
+.toolboxControl{
+    padding:1px;
+    border:#007069 1px solid;
+    width: 110px;
+}
+
+.toolboxControl>button{
+    width: 100px;
+}
+
+.toolboxSelectedControl{
+    padding:1px;
+    border:#007069 1px solid;
+}
+
+#tblProperty td{
+    background-color: blueviolet;
+    padding: 2px;
+    border:#007069 1px dashed;
+}
+#tblProperty td span{
+    width: 100%;
+}
+#tblProperty td input{
+    width: 100%;
+}
+#txtHtmlSource{
+    width: 99%; 
+    min-height: 130px; 
+    height:80%; 
+    background-color: #cccccc;
+    resize: none;
+}
+.tblHtmlSource{   
+    background-color: rgb(180, 189, 186);
+    width: 100%; 
+    height: 100%;
+    background-color: #ddd;
+}
+.tblHtmlSource td{
+    background-color: cadetblue;
+}
