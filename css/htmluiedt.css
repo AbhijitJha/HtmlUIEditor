@@ -2,6 +2,7 @@ body{
     background-color:grey;
 }
 #designerDiv{
+    /*position: relative;*/
     border: #4392AE 1px inset;
     width: 100%;
     min-height:250px; 

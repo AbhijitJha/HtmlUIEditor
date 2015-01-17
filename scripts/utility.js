@@ -49,3 +49,20 @@ $(".btnShowHideSource").click(function () {
     }
 });
 
+
+
+function highlightSelectedToolboxControl(ctrl)
+{
+    $('#tblToolBox input').each(function () {
+        $(this.parentNode).removeClass("toolboxSelectedControl");
+    });
+    $(ctrl.parentNode).addClass("toolboxSelectedControl");
+}
+
+function unselectToolboxControl()
+{
+    $('#tblToolBox input').each(function () {
+        $(this.parentNode).removeClass("toolboxSelectedControl");
+    });
+}
+
